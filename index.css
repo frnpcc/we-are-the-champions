@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    color: white;
+    font-family: "Inter"
+}
+
+h1, h2, button {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1, button {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+img {
+  margin-top: 51px;
+  width: 90px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+#textarea-el {
+  width: 317px;
+  height: 118px;
+  background-color: #444059;
+  color: #8F8F8F;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 9px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+
+.from-to {
+  width: 317px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  background-color: #444059;
+  color: #8F8F8F;
+  border: none;
+  padding: 12px 0;
+  width: 152.85px;
+  margin-bottom: 9px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 15px;
+}
+
+#publish-btn {
+  padding: 18px 122.8px;
+  border-radius: 8px;
+  background-color: #28A9F1;
+  border: none;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#messages {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.message {
+  width: 317px;
+  background-color: #FFFFFF;
+  color: #1B1924;
+  font-size: 12px;
+  padding: 0 10px;
+  margin-bottom: 13px;
+  box-sizing: border-box;
+}
+
+.footer-msg {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+}
